@@ -6,7 +6,7 @@ import math
 st.title("Data App Assignment")
 st.write("##### Hawkins Jean 3/31/2025")
 
-st.write("### Input Data and Examples")
+st.write("### Input Data and Example")
 df = pd.read_csv("./streamlit/Superstore_Sales_utf8.csv", parse_dates=True)
 st.dataframe(df)
 
